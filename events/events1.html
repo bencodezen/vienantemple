@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Vien An Temple</title>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+    </script
+    <![endif]-->
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:700italic,400,400italic,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="lightbox.css" type="text/css" media="screen" />
+	<style type="text/css">
+		h1, h2 {
+			font-family: 'Lato', sans-serif;
+			font-weight: bold;
+		}	
+		h1 {
+			font-size: 200%;
+			text-shadow: 4px 4px 4px #aaa;
+		}
+		.navFont {
+			font-family: 'Lato', sans-serif;
+		}
+    </style>
+</head>
+
+<body>
+<div class="container">
+<header role="banner">
+	<img src="images/logo.png" class="topLeft">
+    <nav role="navigation">
+        <ul>
+            <li class="navFont"><a href="index.html">HOME</a></li>
+            <li class="navFont"><a href="events.html">EVENTS</a></li>
+            <li class="navFont, on"><a href="gallery.html">GALLERY</a></li>
+            <li class="navFont"><a href="about.html">ABOUT</a></li>
+            <li class="navFont"><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="sidebar1">
+<article role="article">
+<h2 style="text-decoration:underline;padding-top:10px;">About San Francisco Trip</h2>
+<p>Here are some highlight from the trip:</p>
+      <ul>
+        <li>Golden Gate Bridge</li>
+        <li>San Francisco Chinatown</li>
+        <li>Twin Peaks at Midnight</li>
+        <li>San Francisco Japantown</li>
+        <li>Amazing Food Trucks</li>
+        <li>Great Restaurants</li>
+      </ul></article>
+<aside role="complementary">
+      <h2 style="margin-left:10px;">Staff Outreach</h2>
+      <p style="margin-left:10px;">If you're interested in more events like this, please contact Sonlay at sonlayv@sample.com.</p></aside>
+      </div> 
+<div class="content" role="main">
+	<h1 style="margin-left:10px;text-decoration:underline;text-align:center;font-weight:bold;">SAN FRANCISCO 2011</h1>
+  	<div class="imageRow">
+  	<div class="set">
+  	  <div class="single first">
+  		  <a href="images/photos/image-1.jpg" rel="lightbox[photos]" title="Thai Shrimp Mango Appetizer">
+          <img src="images/photos/thumb-1.jpg" alt="Photos: Image 1 of 9 Thumb" /></a>
+  		</div>
+      <div class="single">
+  		  <a href="images/photos/image-2.jpg" rel="lightbox[photos]" title="Asian Ice Cream Sundae" >
+          <img src="images/photos/thumb-2.jpg" alt="Photos: Image 2 of 9 Thumb" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/photos/image-3.jpg" rel="lightbox[photos]" title="French Toast">
+          <img src="images/photos/thumb-3.jpg" alt="Photos: Image 3 of 9 Thumb" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/photos/image-4.jpg" rel="lightbox[photos]" title="Late Sunset" >
+          <img src="images/photos/thumb-4.jpg" alt="Photos: image 4 of 9 Thumb" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/photos/image-5.jpg" rel="lightbox[photos]" title="San Francisco - Twin Peak's Night View">
+          <img src="images/photos/thumb-5.jpg" alt="Photos: Image 5 of 9 Thumb" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/photos/image-6.jpg" rel="lightbox[photos]" title="Early Sunset" >
+          <img src="images/photos/thumb-6.jpg" alt="Photos: Image 6 of 9 Thumb" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/photos/image-7.jpg" rel="lightbox[photos]" title="Water Crash">
+          <img src="images/photos/thumb-7.jpg" alt="Photos: Image 7 of 9 Thumb" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/photos/image-8.jpg" rel="lightbox[photos]" title="Windy Path">
+          <img src="images/photos/thumb-8.jpg" alt="Photos: Image 8 of 9 Thumb" /></a>
+      </div>
+      <div class="single last">
+  		  <a href="images/photos/image-9.jpg" rel="lightbox[photos]" title="Magenta/White Flowers">
+          <img src="images/photos/thumb-9.jpg" alt="Photos: Image 9 of 9 Thumb" /></a>
+      </div>
+  	</div>
+  </div>
+
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/jquery-ui-1.8.18.custom.min.js"></script>
+<script src="js/jquery.smooth-scroll.min.js"></script>
+<script src="js/lightbox.js"></script>
+
+<script>
+  jQuery(document).ready(function($) {
+      $('a').smoothScroll({
+        speed: 1000,
+        easing: 'easeInOutCubic'
+      });
+
+      $('.showOlderChanges').on('click', function(e){
+        $('.changelog .old').slideDown('slow');
+        $(this).fadeOut();
+        e.preventDefault();
+      })
+  });
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2196019-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</div> 
+<footer role="contentinfo">
+	<address>1234 Main Street Anytown, Maryland, USA Ph 410-555-5555 Fx 410-555-5554</address>
+    <p>Copyright 2012 by Benjamin Hong - All rights reserved</p>
+</footer>
+</div>
+</body>
+</html>

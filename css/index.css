@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.indexContent h1 {
+	font-size: 160%;
+	font-weight: bold;
+}
+.indexContent ul {
+	font-size: 120%;
+}
+.indexContent ul li {
+	padding-top: 0.8%;
+	padding-bottom: 0.8%;
+}
+.indexContent p {
+	font-size: 120%;
+}
