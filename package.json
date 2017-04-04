@@ -1,0 +1,23 @@
+{
+  "name": "vienantemple",
+  "version": "1.0.1",
+  "description": "Vien An Temple Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ben Hong (@bencodezen)",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-util": "^3.0.6"
+  },
+  "dependencies": {
+    "gulp-clean-css": "^3.0.4",
+    "gulp-sass": "^2.3.2"
+  }
+}

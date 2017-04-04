@@ -26,6 +26,10 @@ body {
 	padding-bottom: 10px;
 }
 
+p {
+	line-height: 1.5;
+}
+
 /*****HEADER*****/
 header {
 	height: 100px;
@@ -99,11 +103,11 @@ td {
 	width: 250px;
 	text-align: center;
 }
-tr:nth-child(odd) { 
-	background-color:#6699FF; 
+tr:nth-child(odd) {
+	background-color:#6699FF;
 }
-tr:nth-child(even) { 
-	background-color:#CCCCCC; 
+tr:nth-child(even) {
+	background-color:#CCCCCC;
 }
 tr.thead {
 	background-color:#CCC;
@@ -183,3 +187,7 @@ input[type="checkbox"] {
     font-weight: normal;
     font-style: normal;
 }
+
+.maw100p { max-width: 100%; }
+.pt1r { padding-top: 1rem; }
+.ta-c { text-align: center; }
