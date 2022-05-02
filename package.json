@@ -4,9 +4,13 @@
   "description": "Vien An Temple Site",
   "main": "index.js",
   "scripts": {
+    "dev": "http-server dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Ben Hong <bencodezen@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.0"
+  }
 }
