@@ -1,6 +1,5 @@
 [[redirects]]
-  from = "/"
+  from = "/*"
   to = "https://vienantemple.org/"
   status = 301
   force = true
-  query = {path = ":path"}
